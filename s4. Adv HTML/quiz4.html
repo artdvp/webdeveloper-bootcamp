@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz4 form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Register</h1>
+        <label for="">First Name:</label>
+        <input type="text" name="fistname" placeholder="john" required/>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" placeholder="Smith" required>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" value="other">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="your email" />
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="your password" required minlength="5" maxlength="10">
+        <br>
+        <label for="birthday">Birth Day</label>
+        <select name="birthday" id="">
+            <option value="">Month</option>
+            <option value="">January</option>
+            <option value="">Fabuary</option>
+            <option value="">March</option>
+            <option value="">April</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">August</option>
+            <option value="">September</option>
+            <option value="">October</option>
+            <option value="">November</option>
+            <option value="">December</option>
+        </select>
+        <select name="day" id="">
+            <option value="">Day</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+        </select>
+        <select name="year" id="">
+            <option value="">Year</option>
+            <option value="">2017</option>
+            <option value="">2016</option>
+            <option value="">2015</option>
+            <option value="">2014</option>
+        </select>
+        <br>
+        <label for="">I  agree to the terms and conditions</label>
+        <input type="checkbox" name="confirm">
+        <input type="submit">
+    </form>
+</body>
+</html>
