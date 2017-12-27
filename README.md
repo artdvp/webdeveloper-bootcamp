@@ -20,3 +20,7 @@ ref : [udemy course](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/c
 - [Code Talk](https://gitter.im/Colt/WDB-CodeTalk)
 - [JobsTalk](https://gitter.im/Colt/WDB-Jobs)
 
+> Document Reference
+
+- [MDN developer](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+- [htmlreference.io](http://htmlreference.io/)
